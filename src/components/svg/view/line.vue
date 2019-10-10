@@ -10,7 +10,7 @@
 import svg from '@/util/svgMethods'
 
 export default {
-  name: 'lineDemo',
+  name: 'line',
   data () {
     return {
       oPolyLine: null,

@@ -1,4 +1,4 @@
 
 export default {
-    line: resolve => require(['./lineDemo.vue'],resolve)
+    line: resolve => require(['./line.vue'],resolve)
 }
