@@ -1,7 +1,7 @@
 <template>
 <div class="home">
   <div @click="goTo('line')">line1</div>
-  <div @click="goTo('Echarts')">Echarts</div>
+  <div @click="goTo('Echarts')">Echarts2</div>
 </div>
 </template>
 
