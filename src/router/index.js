@@ -4,6 +4,8 @@ import Router from 'vue-router'
 import home from '@/module/home'
 import svg from '@/module/svg/view/index'
 import echarts from '@/module/echarts/view/index'
+import threeD from '@/module/threeD/index'
+import others from '@/module/others/index'
 
 Vue.use(Router)
 
@@ -28,6 +30,16 @@ export default new Router({
       path: '/atlas',
       name: 'atlas',
       component: svg.atlas
-    }
+    },
+    {
+      path: '/threeD',
+      name: 'threeD',
+      component: threeD.threeD
+    },
+    {
+      path: '/banner',
+      name: 'banner',
+      component: others.banner
+    } 
   ]
 })
